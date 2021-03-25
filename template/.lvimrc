@@ -1,7 +1,7 @@
 "Set up path. For watch your path, check : let g:path_to_localvimrc
 "
 let g:path_to_localvimrc=getcwd()
-let g:path_to_localvimrc={{projectPath}}
+let g:path_to_localvimrc="{{projectPath}}"
 
 "if session without file, add trigger for save project
 "else - dont save project

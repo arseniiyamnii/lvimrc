@@ -39,4 +39,4 @@ au VimEnter * call RestoreSess()
 if save_session_trigger == "1"
 	autocmd VimLeave * call SaveSess()
 endif
-
+execute 'cd' fnameescape(g:path_to_localvimrc)
